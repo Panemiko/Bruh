@@ -24,13 +24,13 @@ tornando mais fácil prever o resultado final
     grid-template-rows: 80px 40px 60px;
 
     /* Define o tamanho de cada uma das colunas */
-    grid-template-columns: 100px 100px 200px;
+    grid-template-columns: 200px 200px 300px;
 
     /* 
        Também podemos definir isso assim 
        Separando o tamanho das linhas e colunas com /
     */
-    grid-template: 80px 40px 60px / 100px 100px 200px;
+    grid-template: 80px 40px 60px / 200px 200px 300px;
 }
 
 .element {
