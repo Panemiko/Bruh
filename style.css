@@ -1,40 +1,17 @@
-/* 
-
-* - seleciona todos os elementos da página
-
-Isso é necessário para desativar algumas propriededes padrão do CSS
-tornando mais fácil prever o resultado final
-
-*/
-
-* {
-    box-sizing: border-box;
-    padding: 0;
+* { 
+    /* Essa parte faz todos os elementos terem isso como base */
     margin: 0;
-
-    /* Tira a fonte feia Ò.Ó */
-    font-family: Arial, Helvetica, sans-serif
+    padding: 0;
 }
 
 .container {
-    /* Transforma o elemento em uma 'grid' */
     display: grid;
-
-    /* Define o tamanho das linhas */
-    grid-template-rows: 80px 40px 60px;
-
-    /* Define o tamanho de cada uma das colunas */
-    grid-template-columns: 200px 200px 300px;
-
-    /* 
-       Também podemos definir isso assim 
-       Separando o tamanho das linhas e colunas com /
-    */
-    grid-template: 80px 40px 60px / 200px 200px 300px;
+    grid-template-columns: auto auto;
 }
-
-.element {
-    /* Para podermos visualizar os elementos sem o DevTools */
-    border: 2px solid red;
-    font-size: x-large;
+.imagens img {
+    max-width: 10vw;
+}
+.title {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
