@@ -21,3 +21,8 @@ Poderíamos seguir apenas com essas propriedades que já seria o suficiente, mas
 **Container** 
 
 - `gap` - Determina o espaço entre cada um dos `childrens` dentro do `container`
+
+**Childrens**
+
+- `grid-column-start` e `grid-row-start` - determina onde começa o `children`
+- `grid-column-end` e `grid-row-end` - determina onde termina o `children`
